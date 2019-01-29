@@ -28,7 +28,7 @@
       },
       watch: {
         value: function (val) {
-          this.spanVal = val.replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/<=/g,'&le;').replace(/>=/g,'&ge;').replace(/[\r|\n]/g,`</br>`).replace(/\s/g,'&nbsp;');
+          this.spanVal = val.replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/<=/g,'&le;').replace(/>=/g,'&ge;').replace(/[\r|\n]/g,`</br>`).replace(/\s/g,'&#160;');
         }
       }
     }
@@ -59,7 +59,8 @@
       color: inherit;
       line-height: inherit;
       resize:none;
-      overflow:hidden
+      overflow:hidden;
+      word-break: break-all;
     }
   }
 </style>

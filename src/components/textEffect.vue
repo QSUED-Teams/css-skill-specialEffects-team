@@ -45,13 +45,13 @@
   }
   .g-colour-border{
     border: .02rem solid transparent;
-    background-image: linear-gradient(to left, #fff,#fff), linear-gradient(to left, #83D0FB,#64E7CE 95%);
+    background-image: linear-gradient(to left, #fff,#fff), linear-gradient(to left, #1514fb, #e77e0e 95%);
     background-origin: border-box;
     background-clip: content-box, border-box;
     background-size: cover;
   }
   .g-colour-text{
-    background-image: linear-gradient(to left, #83D0FB,#64E7CE 95%);
+    background-image: linear-gradient(to left, #1b10fb, #e7a711 95%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

@@ -26,7 +26,8 @@ text effect(一些文字特效):
   
   文字渐变
   
-  动态边框:
+  动态边框:(目前只能固定宽高)
+  
     --dynamic-width:设置box宽度，--dynamic-height:设置box高度，--dynamic-border:设置border宽度，
 # demo
 
